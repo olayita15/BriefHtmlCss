@@ -34,6 +34,12 @@
     text-align: left;
     margin-bottom: 2rem;
     padding-top: 5rem;
+    padding-bottom: 2rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
 }
 
 .institucional__direccion {
