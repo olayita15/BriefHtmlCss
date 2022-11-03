@@ -9,13 +9,21 @@
     font-size: 1.5rem;
     font-family: var(--montserrat);
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     margin-bottom: 1.25rem;
+    margin-top: 1rem;
 }
 
 .sobre_nosotros__texto {
-    line-height: normal;
+    
     margin-bottom: 1rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    padding: .5rem 0 .5rem 0;    
 }
 
 .sobre_nosotros__plataformas {
@@ -28,4 +36,27 @@
 .sobre-nosotros {
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
+}
+.sobre_nosotros__lista {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    padding: 2rem 0 2rem 0;
+}
+
+.sobre_nosotros__iconos {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+
+    border-top: 1px solid var(--background-ceniza-medio);
+    padding: 1rem 0 1rem 0;
+}
+
+.sobre_nosotros__panel {
+    padding: 0 1rem 0 1rem;
+}
+
+.sobre_nosotros__item {
+    width: 60%;
 }

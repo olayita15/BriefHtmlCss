@@ -27,3 +27,16 @@
 
     margin-top: 1.25rem;
 }
+
+.contacto__texto {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+
+    text-align: rigth;
+
+    color: #000000;
+}
