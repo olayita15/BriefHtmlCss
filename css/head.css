@@ -6,15 +6,17 @@
     box-sizing: border-box;
 
     display: flex;
-    flex-direction: column;
+    flex-flow: row;
+    justify-content: space-between;
     align-items: center;
 
-    padding-top: .75rem;
+    padding-top: 1.75rem;
     padding-bottom: .75rem;
 
-    border-bottom: 1px solid var(--border-cabecera-mobile);
+    /* border-bottom: 1px solid var(--border-cabecera-mobile); */
 
     position: absolute;
+
 }
 
 .head__logo {
@@ -22,7 +24,14 @@
 }
 
 .head__navegacion {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
     text-align: center;
+
+    color: #FFFFFF;
 }
 
 .head__enlace {

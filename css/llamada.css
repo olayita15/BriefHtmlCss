@@ -7,6 +7,9 @@
     text-align: center;
     
     background-color: var(--background-llamada-mobile);
+    background-image: url("../img/bg-intro.jpg");
+    background-position: center;
+    background-size:cover;
 
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
@@ -14,7 +17,7 @@
 
 .llamada__titulo {
     font-family: var(--montserrat);
-    font-size: 2rem;
+    font-size: 52px;
     font-weight: 700;
     text-transform: uppercase;
 
@@ -22,12 +25,19 @@
 }
 
 .llamada__texto {
-    font-size: 1.25rem;
+    width: 40%;
     line-height: normal;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
 
     margin: 0 auto 2.5rem;
 }
 
 .llamada__boton {
+    font-weight: 700;
     width: 100%;
 }
